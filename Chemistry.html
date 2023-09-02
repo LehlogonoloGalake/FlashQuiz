@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry</title>
+    <link rel="stylesheet" href="fStyles/styles.css">
+    <script src="./fScripts/ChemistryScripts.js" type="text/javascript"></script>
+    <script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    }
+  });
+</script>
+</head>
+<body>
+    <a href="index.html">&#9776;Home</a>
+   
+    <div id="quiz-container">
+      <div id="timer"></div>
+  <h3>1. <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mtext>CH</mtext>
+      <sub>4</sub>
+    </mrow>
+  </math>
+  </h3>
+  <label><input id="Q1a" type="radio" name="q1" value="a">a. Carbon TetraHydride </label><br>
+  <label><input id="Q1b" type="radio" name="q1" value="b">b. Methane</label><br>
+  <label><input id="Q1c" type="radio" name="q1" value="c">c. TetraHydride</label><br><br>
+<hr>
+  <h5>2. Balance the folloing chemical equation: <mrow>
+    <mtext>CO</mtext><sub>3</sub>
+    <sup>2-</sup>
+    <mo>+</mo>
+    <mtext>3H<sub>2</sub>SO<sub>4</sub></mtext><mo>&#x2192;</mo>
+    <mtext>SO<sub>4</sub><sup>2-</sup></mtext><mo>+</mo>
+    <mtext>H<sub>2</sub>O</mtext><mo>+</mo><mtext>CO<sub>2</sub>(g)</mtext>
+
+  </mrow></h5>
+  <label><input id="Q2a" type="radio" name="q2" value="a">a. CO<sub>3</sub><sup>2-</sup>+ H<sub>2</sub>SO<sub>4</sub>&#x2192 SO<sub>4</sub><sup>2-</sup>+ H<sub>2</sub>O + CO<sub>2</sub>(g)</label><br>
+  <label><input id="Q2b" type="radio" name="q2" value="b">b. CO<sub>3</sub><sup>2-</sup>+ H<sub>2</sub>4SO<sub>4</sub>&#x2192 SO<sub>4</sub><sup>2-</sup>+ 3H<sub>2</sub>O + CO<sub>2</sub>(g) </label><br>
+  <label><input id="Q2c" type="radio" name="q2" value="c">c. CO<sub>3</sub><sup>2-</sup>+ HSO<sub>4</sub>&#x2192 SO<sub>4</sub><sup>2-</sup>+ H<sub>2</sub>O + CO(g)</label><br><br>
+<hr>
+  <h5>3. <img src="Propanol.png" alt="alcohol" width="280px" height="200px"><br/> What is the name of the above alcohol?</h5>
+  <label><input id="Q3a" type="radio" name="q3" value="a"> a.Propanol </label><br>
+  <label><input id="Q3b" type="radio" name="q3" value="b"> b. 2-propanol </label><br>
+  <label><input id="Q3c" type="radio" name="q3" value="c"> c. prop-1-enol</label><br><br>
+
+  <button id="submit-btn">submit</button>
+  <hr>
+  <div id="results">
+<p id="name"></p>
+<p id="resultQ1" ></p><br>
+<hr>
+<p id="resultQ2" ></p><br>
+<hr>
+<p id="resultQ3" ></p>
+  </div>
+
+    </div> 
+</body>
+</html>

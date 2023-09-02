@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Quiz</title>
+<link rel="stylesheet" href="fStyles/styles.css">
+<script src="./fScripts/Script.js" type="text/javascript"></script>
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    }
+  });
+</script>
+</head>
+<body>
+<h1>MATH Quiz</h1>
+
+
+  <a href="index.html">&#9776;Home</a>
+   
+    <div id="quiz-container">
+      <div id="timer"></div>
+  <h3>1. Solve for x: \(x^2+3x+2 = 0\)</h3>
+  <label><input id="Q1a" type="radio" name="q1" value="a">a. x = 1 or x = -2</label><br>
+  <label><input id="Q1b" type="radio" name="q1" value="b">b. x= 1 or x= 2</label><br>
+  <label><input id="Q1c" type="radio" name="q1" value="c">c. x = 0 or x =3</label><br><br>
+<hr>
+  <h3>2. Evaluate:\(\lim_{x\to0}\frac{1-cosx}{x}\)</h3>
+  <label><input id="Q2a" type="radio" name="q2" value="a">a. 0</label><br>
+  <label><input id="Q2b" type="radio" name="q2" value="b">b. $\infty$</label><br>
+  <label><input id="Q2c" type="radio" name="q2" value="c">c. $-\infty$</label><br><br>
+<hr>
+  <h3>3. find the limit of $\lim_{x\to0}\frac{sinx}{x}$ ,if it exists.</h3>
+  <label><input id="Q3a" type="radio" name="q3" value="a"> a. $\frac{1}{2}$ </label><br>
+  <label><input id="Q3b" type="radio" name="q3" value="b"> b. 0 </label><br>
+  <label><input id="Q3c" type="radio" name="q3" value="c"> c. 1</label><br><br>
+
+  <button id="submit-btn">submit</button>
+  <hr>
+  <div id="results">
+<p id="name"></p>
+<p id="resultQ1" ></p><br>
+<hr>
+<p id="resultQ2" ></p><br>
+<hr>
+<p id="resultQ3" ></p>
+  </div>
+
+    </div>
+
+
+</body>
+</html>
