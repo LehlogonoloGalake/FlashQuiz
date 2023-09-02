@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url("FallingSquare.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    padding: 10px;
+    background-color: deeppink;
+}
+
+.SideNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.SideNav a{
+    text-decoration: none;
+    color: darkgrey;
+    margin-bottom: 12px;
+    padding: 15px;
+}
+
+.SideNav a:hover{
+    color: #f1f1f1;
+}
+.SideNav .closeBtn{
+    position: absolute;
+    top:0;
+    right:  25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#Main{
+    padding: 16px;
+}
+
+@media screen and (max-height:450px){
+    .SideNav{padding-top: 16px;}
+    .SideNav a{font-size: 18px;}
+    
+}
+
+span{
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+button{
+    width: 100%;
+    border-radius: 10%;
+}
+
+p p ul li{
+    width: max-content;
+}
+
+footer{
+    position: absolute;
+    bottom: 1.5%;
+    left: 45%;
+}
+
+
+#Container{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+#Container h2{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+
+}
