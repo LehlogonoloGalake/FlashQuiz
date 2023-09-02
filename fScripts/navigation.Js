@@ -1,5 +1,5 @@
  // Function to handle the quiz button click
-
+document.addEventListener("DOMCONTENTLOADED", ()=>{
  function startQuiz() {
 
     var quizPageLink = 'SimpleQuiz.html';
@@ -10,3 +10,4 @@
 // Attach the function to the button click event
 var quizButton = document.getElementById('quizButton');
 quizButton.addEventListener('click', startQuiz);
+});
