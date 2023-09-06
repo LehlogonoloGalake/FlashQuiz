@@ -14,9 +14,10 @@ document.querySelector(".closeBtn").onclick= function CloseNav(){
 function displayNone(){
     document.querySelector("h5").textContent= "";
 }
+    alert("Dear User, auto-rotate your Screen on your Mobile device if using a mobile phone if not Just sit back and Enjoy :]");
 var timer = setTimeout(
  displayNone  
-, 9000);
+, 25000);
 
 console.log(timer);
 });
