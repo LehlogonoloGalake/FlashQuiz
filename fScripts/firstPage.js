@@ -12,7 +12,7 @@ document.querySelector(".closeBtn").onclick= function CloseNav(){
     document.getElementById("Main").style.marginLeft="0";
 }
 function displayNone(){
-    document.querySelector("h3").textContent= "";
+    document.querySelector("h5").textContent= "";
 }
 var timer = setTimeout(
  displayNone  
