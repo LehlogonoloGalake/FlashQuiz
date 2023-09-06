@@ -14,10 +14,14 @@ document.querySelector(".closeBtn").onclick= function CloseNav(){
 function displayNone(){
     document.querySelector("h5").textContent= "";
 }
-    alert("Dear User, auto-rotate your Screen on your Mobile device if using a mobile phone if not Just sit back and Enjoy :]");
+    
 var timer = setTimeout(
  displayNone  
 , 25000);
-
-console.log(timer);
+    
+function Falert(){
+   alert("Dear User, auto-rotate your Screen on your Mobile device if using a mobile phone if not Just sit back and Enjoy :]"); 
+}
+var displayAlert = setTimeout( Falert, 2000);
+//console.log(timer);
 });
