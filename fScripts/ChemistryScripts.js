@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', (event)=>{
           const SelectedAnswerQ1 = document.querySelector('input[name="q1"]:Checked').value;
             const SelectedAnswerQ2 = document.querySelector('input[name="q2"]:Checked').value;
             const SelectedAnswerQ3 = document.querySelector('input[name="q3"]:Checked').value;
-            const CorrectAnswer1 = document.getElementById("Q1b").value;
-            const CorrectAnswer2 = document.getElementById("Q2a").value;
-            const CorrectAnswer3 = document.getElementById("Q3a").value;
+            const CorrectAnswer1 = document.getElementById("Q1c").value;
+            const CorrectAnswer2 = document.getElementById("Q2b").value;
+            const CorrectAnswer3 = document.getElementById("Q3c").value;
             const result1 = document.getElementById("resultQ1");
             const result2 = document.getElementById("resultQ2");
             const result3 = document.getElementById("resultQ3");
