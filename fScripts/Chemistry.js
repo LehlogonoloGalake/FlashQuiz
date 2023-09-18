@@ -8,3 +8,4 @@ function startQuiz() {
 // Attach the function to the button click event
 var quizButton = document.getElementById('quizButton');
 quizButton.addEventListener('click', startQuiz);
+quizButton.disabled = true;
