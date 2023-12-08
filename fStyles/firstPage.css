@@ -51,11 +51,10 @@ body{
     padding: 16px;
 }
 
-@media screen and (max-height:450px){
     .SideNav{padding-top: 16px;}
     .SideNav a{font-size: 18px;}
     
-}
+
 
 span{
     font-size: 30px;
@@ -91,4 +90,5 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 
+}
 }
